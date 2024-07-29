@@ -8,19 +8,20 @@ Este es un proyecto Django para una academia que incluye secciones para alumnos,
 ## Modelos
 
 ### Alumno
-- **nombre**: Nombre del alumno (CharField)
-- **edad**: Edad del alumno (IntegerField)
-- **curso**: Curso del alumno (CharField)
+- **nombre**: Nombre del alumno 
+- **apellido**: Apellido del alumno 
+- **email**: Email del alumno 
 
 ### Profesor
-- **nombre**: Nombre del profesor (CharField)
-- **especialidad**: Especialidad del profesor (CharField)
-- **experiencia**: Años de experiencia del profesor (IntegerField)
+- **nombre**: Nombre del profesor
+- - **Apellido**: Apellido del profesor 
+- **email**: Email del profesor 
+- **departemnto**: Departamento
 
 ### Curso
 - **nombre**: Nombre del curso (CharField)
-- **descripcion**: Descripción del curso (TextField)
-- **profesor**: Profesor asignado al curso (ForeignKey a Profesor)
+- **tipo**: tipo del curso (TextField)
+- **nivel**: nivel asignado al curso 
 
 ## Formularios
 
