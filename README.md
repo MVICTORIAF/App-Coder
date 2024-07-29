@@ -14,7 +14,7 @@ Este es un proyecto Django para una academia que incluye secciones para alumnos,
 
 ### Profesor
 - **nombre**: Nombre del profesor
-- - **Apellido**: Apellido del profesor 
+- **Apellido**: Apellido del profesor 
 - **email**: Email del profesor 
 - **departemnto**: Departamento
 
